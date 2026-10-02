@@ -1,7 +1,3 @@
-# Limited_Software_Stacks_on_Arduino
-Lightweight concurrency and synchronization on memory-constrained Arduino hardware using Protothreads and semaphores.
-
-
 # Limited Software Stacks on Arduino
 
 The main idea of the project implementation is to handle multiple concurrent tasks —specifically, reading button inputs, reading potentiometer values, managing LED states and updating an OLED display. This in achieved with protothreads and semaphores and later on with the use of FreeRTOS.
